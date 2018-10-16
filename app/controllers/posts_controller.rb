@@ -2,7 +2,7 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.all
-    @author = Author.all
+    @authors = Author.all
   end
 
   def show
